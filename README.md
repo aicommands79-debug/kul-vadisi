@@ -4,6 +4,12 @@ Godot 4.7 ile yapılmış, 2D top-down aksiyon-RPG prototipi.
 **Hiçbir ücretli servis, indirilmiş asset veya eklenti yok.** Bütün görseller,
 sesler ve haritalar çalışma anında kodla üretilir (`Art.gd`, `Sfx.gd`, `RealmGen.gd`).
 
+## İndir (Windows)
+
+Hazır sürüm: [**Kül Vadisi v1.0.0 — Windows x86_64**](https://github.com/aicommands79-debug/kul-vadisi/releases/latest)
+
+ZIP'i bir klasöre çıkar ve `KulVadisi.exe`'yi çalıştır. Kurulum gerekmez.
+
 ## Ekran görüntüleri
 
 | Kül Vadisi | Erlik'in Karanlığı — Karabasan |
@@ -145,6 +151,17 @@ godot --path . -- --shot --fresh
 ```
 
 Testler mevcut kayıt dosyasını yedekleyip sonunda geri koyar.
+
+## Windows için derleme
+
+Godot 4.7.2 ve export şablonları gerekir (Godot → Editör → Export Şablonlarını Yönet).
+
+```bash
+godot --headless --path . --export-release "Windows Desktop" "build/KulVadisi.exe"
+```
+
+Çıktı tek dosyadır: PCK gömülüdür, yanında `.pck` gerekmez.
+`export_presets.cfg` depoda hazır (Windows x86_64, release, MIT).
 
 ### Hızlı görsel kontroller
 

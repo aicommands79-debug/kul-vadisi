@@ -1,8 +1,7 @@
 .godot/
+build/
+export/
 shot*.png
 *.tmp
-export/
-
 o.txt
 e.txt
-

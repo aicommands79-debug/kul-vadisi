@@ -4,6 +4,16 @@ Godot 4.7 ile yapılmış, 2D top-down aksiyon-RPG prototipi.
 **Hiçbir ücretli servis, indirilmiş asset veya eklenti yok.** Bütün görseller,
 sesler ve haritalar çalışma anında kodla üretilir (`Art.gd`, `Sfx.gd`, `RealmGen.gd`).
 
+## Ekran görüntüleri
+
+| Kül Vadisi | Erlik'in Karanlığı — Karabasan |
+|---|---|
+| ![Kül Vadisi](docs/valley.png) | ![Karabasan](docs/karabasan.png) |
+
+| Ülgen'in Gök Yaylası — Simurg | Bekçi Duran ile diyalog |
+|---|---|
+| ![Simurg](docs/simurg.png) | ![Diyalog](docs/dialog.png) |
+
 ## Çalıştırma
 
 ```bash

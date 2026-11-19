@@ -417,7 +417,7 @@ func _shot() -> void:
 			if n is Npc:
 				n.interact()
 				break
-		await get_tree().create_timer(0.9).timeout
+		await get_tree().create_timer(2.1).timeout
 	if args.has("--demo-shrine"):
 		for n in get_tree().get_nodes_in_group("interactable"):
 			if n is Shrine:

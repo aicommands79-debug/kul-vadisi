@@ -145,6 +145,10 @@ func _build_banner() -> void:
 	banner_title.text = Game.realm_title(Game.realm)
 	banner_sub.text = str(sub.get(Game.realm, ""))
 
+	if OS.get_cmdline_user_args().has("--clean"):
+		banner_title.modulate.a = 0.0
+		banner_sub.modulate.a = 0.0
+		return
 	var tw := create_tween()
 	tw.set_parallel(true)
 	tw.tween_property(banner_title, "modulate:a", 1.0, 0.6)

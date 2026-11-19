@@ -1,0 +1,4 @@
+.godot/
+shot*.png
+*.tmp
+export/
